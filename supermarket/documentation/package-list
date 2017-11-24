@@ -1,0 +1,8 @@
+com.demo.configuration
+com.demo.controller
+com.demo.dao
+com.demo.dao.impl
+com.demo.model
+com.demo.service
+com.demo.service.impl
+com.demo.test.service
