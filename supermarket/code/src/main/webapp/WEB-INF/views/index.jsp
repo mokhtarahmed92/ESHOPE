@@ -16,8 +16,7 @@
 <body>
 	<div id="nav_view" class="container-fluid">
 	 <br/>
-
-				<img alt="phone" src='<%=contextPath+"/static/images/logo.png"%>'>
+		<img alt="phone" src='<%=contextPath+"/static/images/logo.png"%>'>
 	 </div>
 	    <br/>
 			<table border='10px' class='col-sm-8'>
@@ -51,27 +50,6 @@
 				</tr>
 			</tbody>
 		</table>
-
-
-		<!--
-		<span v-for='item in allItems'>
-				<img alt="phone" src='<%=contextPath+"/static/images/pic1.png"%>'>
-				<div>Product : {{ item.name }}</div>
-				<div>Price : {{ item.price }} $</div>
-				<strong>Offers:</strong>
-				<span v-if="item.offers.length > 0">
-					<li v-for="offer in item.offers">
-						{{offer.count}} items for {{offer.price}}$
-					</li>
-				</span>
-				<div v-else>No Offers</div>
-				<div> 
-					Quantity: <input v-model="item.quantity" type="text" />
-					<button v-on:click="calculatePrice(item)">Check Out</button>
-				</div> 
-				<div>Total = {{totalAmount}}</div>
-		</span>
--->
 	</div>
 <div> All Copy Reserved 2018</div>
 </body>

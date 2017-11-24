@@ -10,12 +10,12 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.demo.configuration.AppConfig;
+import com.demo.configuration.SupermarketConfiguration;
 import com.demo.model.Item;
 import com.demo.service.ItemService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {AppConfig.class})
+@ContextConfiguration(classes = {SupermarketConfiguration.class})
 @Transactional
 public class ItemServiceTest {
 
